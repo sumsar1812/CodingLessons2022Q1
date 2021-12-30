@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class WhileExercise {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int input = -1;
-        while (input < 0) {
+        int input = 10;
+        while (input >= 0) {
             System.out.println("Indtast et positivt tal");
             input = scanner.nextInt();
         }
